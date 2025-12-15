@@ -1268,9 +1268,14 @@ npm start
 **Platform-Specific Examples:**
 
 *Render/Railway:*
-- Build Command: `cd backend && npm install && npx prisma generate && npm run build`
-- Start Command: `cd backend && npm start`
+- Build Command: `npm install && npx prisma generate && npm run build`
+- Start Command: `npm start`
 - Add environment variables in dashboard
+
+**For Render specifically**, if you encounter OpenSSL errors, use this build command instead:
+```bash
+apt-get update && apt-get install -y openssl && npm install && npx prisma generate && npm run build
+```
 
 *Heroku:*
 ```bash
