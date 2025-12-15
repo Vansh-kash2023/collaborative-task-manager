@@ -18,4 +18,5 @@ RUN npm run build
 
 EXPOSE 5000
 
-CMD ["npm", "start"]
+# Run migrations and start server
+CMD npx prisma db push --accept-data-loss && npm start
