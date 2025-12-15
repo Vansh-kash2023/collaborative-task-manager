@@ -2,6 +2,11 @@
 
 A production-ready full-stack task management application with real-time collaboration features.
 
+## Live Deployment
+
+- **Frontend:** https://collaborative-task-manager-hezz4gpxg-vansh-kashyaps-projects.vercel.app/
+- **Backend:** https://collaborative-task-manager-t4qz.onrender.com/health
+
 ## Tech Stack
 
 **Backend:** Node.js, Express, TypeScript, PostgreSQL, Prisma ORM, Socket.io, JWT, Bcrypt, Zod
